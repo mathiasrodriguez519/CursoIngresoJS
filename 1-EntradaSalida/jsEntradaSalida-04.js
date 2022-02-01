@@ -7,15 +7,15 @@ y lo muestro por 'ID' al presionar el botón 'mostrar'
 function mostrar()
 {
 
-//declaro variable
-var nombreIngresado
+	//declaro variable
+	var nombreIngresado;
 
-//guardo el dato
-nombreIngresado=prompt("ingrese su nombre")
+	//guardo el dato
+	nombreIngresado=prompt("ingrese su nombre");
 
-//asigno nombre a la caja de texto
+	//asigno nombre a la caja de texto
 
-txtIdNombre.value = nombreIngresado
+	txtIdNombre.value = nombreIngresado;
 
 }
 

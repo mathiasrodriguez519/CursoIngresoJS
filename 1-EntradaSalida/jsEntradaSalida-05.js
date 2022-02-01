@@ -7,8 +7,8 @@ function mostrar()
 {	
 	
 	//declaro variables
-	var nombre
-	var edad
+	var nombre;
+	var edad;
 
 	//guardar los datos en las variables
 	nombre=txtIdNombre.value;

@@ -9,11 +9,11 @@ function mostrar()
 	var nombreIngresado;
 	
 	//guardamos el nombre
-	//nombreIngresado = document.getElementById("txtIdNombre").value; forma 1
-nombreIngresado = txtIdNombre.value;
+	nombreIngresado = document.getElementById("txtIdNombre").value;
+	//nombreIngresado = txtIdNombre.value; forma 2
 
-//mostrarlo por alert
-alert("su nombre es " + nombreIngresado);
+	//mostrarlo por alert
+	alert("su nombre es " + nombreIngresado);
 
 }
 
