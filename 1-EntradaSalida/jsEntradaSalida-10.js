@@ -1,29 +1,32 @@
 /*
 Rodriguez Mathias Ezequiel DIV E
-E/S ej10
-Debemos lograr tomar el importe por ID.
-Transformarlo a entero (parseInt), luego
-mostrar el importe con un Descuento del 25 %
-en el cuadro de texto "RESULTADO"*/
+E/S ej10 bis 
+lo anterior mas.
+se debe pedir el % por prompt
+
+mostrar por alert el importe, el descuento, el importe con Descuento
+"su importe es 1000 , el Descuento es de 250 y su importe con descuento es 750"
+*/
 function mostrarAumento()
 {
-	//declarar las variables
 	var importe;
 	var resultado;
 	var descuento;
+	var descuentoPorcentaje;
 
-    //traer las variables por id
 	importe = document.getElementById("txtIdImporte").value;
 
-    //parsearlo
 	importe = parseFloat(importe);
 
-    //calculamos el descuento y el resultado
-	descuento = importe *25/100;
+	descuentoPorcentaje = prompt("ingrese el porcentaje")
+
+	descuento = importe *descuentoPorcentaje/100;
 
 	resultado = importe - descuento;
 
-    //mostramos el resultado
+	alert("Su importe es " + importe + ", el descuento es de " + descuento + " y su importe con descuento es " + resultado);
+
 	document.getElementById("txtIdResultado").value = resultado;
 
 }
+

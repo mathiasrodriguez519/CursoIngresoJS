@@ -7,13 +7,13 @@ function mostrar()
 {
 
 //declaro variable
-	var nombreIngresado;
+var nombreIngresado;
 
 //guardar variable
-	nombreIngresado = prompt("Ingrese su nombre");
+nombreIngresado = prompt("Ingrese su nombre");
 
 //mostrar por alert
-	alert("Su nombre es " + nombreIngresado);
+alert("Su nombre es " + nombreIngresado);
 
 }
 

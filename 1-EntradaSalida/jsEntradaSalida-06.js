@@ -12,8 +12,8 @@ function sumar()
 	var resultado;
 
     //guardamos el nombre
-	numeroUno = document.getElementById("txtIdNumeroUno").value;
-	numeroDos = document.getElementById("txtIdNumeroDos").value;
+    numeroUno = document.getElementById("txtIdNumeroUno").value;
+    numeroDos = document.getElementById("txtIdNumeroDos").value;
 
     //parseInt para convertir el valor text a un valor numerico
     numeroUno = parseInt(numeroUno);

@@ -6,17 +6,17 @@ transformarlos a enteros (parseInt),realizar la operación correcta y
 mostrar el resulto por medio de "ALERT"
 ej.: "la Resta es 750"*/ 
 
-	var numeroUno;
-	var numeroDos;
-	var resultado;
+var numeroUno;
+var numeroDos;
+var resultado;
 
 function sumar()
 {	
-    numeroUno = document.getElementById("txtIdNumeroUno").value;
+	numeroUno = document.getElementById("txtIdNumeroUno").value;
 	numeroDos = document.getElementById("txtIdNumeroDos").value;
 
 	numeroUno = parseInt(numeroUno);
-    numeroDos = parseInt(numeroDos);
+	numeroDos = parseInt(numeroDos);
 
 
 	resultado = numeroUno + numeroDos;
@@ -31,7 +31,7 @@ function restar()
 	numeroDos = document.getElementById("txtIdNumeroDos").value;
 
 	numeroUno = parseInt(numeroUno);
-    numeroDos = parseInt(numeroDos);
+	numeroDos = parseInt(numeroDos);
 
 	resultado = numeroUno - numeroDos;
 
@@ -45,7 +45,7 @@ function multiplicar()
 	numeroDos = document.getElementById("txtIdNumeroDos").value;
 
 	numeroUno = parseInt(numeroUno);
-    numeroDos = parseInt(numeroDos);
+	numeroDos = parseInt(numeroDos);
 
 	resultado = numeroUno * numeroDos;
 
@@ -59,7 +59,7 @@ function dividir()
 	numeroDos = document.getElementById("txtIdNumeroDos").value;
 
 	numeroUno = parseInt(numeroUno);
-    numeroDos = parseInt(numeroDos);
+	numeroDos = parseInt(numeroDos);
 
 	resultado = numeroUno / numeroDos;
 

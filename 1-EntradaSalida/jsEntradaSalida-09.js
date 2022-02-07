@@ -13,11 +13,11 @@ function mostrarAumento()
 	var aumento;
 
     //traer las variables por id
-	sueldo =document.getElementById("txtIdSueldo").value;
+    sueldo =document.getElementById("txtIdSueldo").value;
 	//resultado = document.getElementById("txtIdResultado").value;
 
 	sueldo = parseFloat(sueldo);
-    
+	
     //calculamos el aumento y el resultado
 	//resultado = sueldo + sueldo*10/100; forma 1
 	aumento = sueldo *10/100;
@@ -36,4 +36,3 @@ function mostrarAumento()
 
 
 }
-
