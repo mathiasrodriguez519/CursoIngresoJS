@@ -22,6 +22,6 @@ operadores relacionales:
 == >= <= !=
 
 operadores logicos:
-!
+&&, ||, !
 
 */
